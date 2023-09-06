@@ -1,0 +1,20 @@
+{
+  "name": "phptailwindcrud",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scanTailwind": "npx tailwindcss -i ./src/configTailwind.css -o ./dist/output.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.3.3"
+  },
+  "dependencies": {
+    "boxicons": "^2.1.4",
+    "jquery": "^3.7.1"
+  }
+}
